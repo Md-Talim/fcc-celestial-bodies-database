@@ -31,3 +31,24 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+ls --color=auto
+ls --color=auto -a
+clear
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
+ls --color=auto
+ls --color=auto -a
+ls --color=auto .freeCodeCamp/
+ls --color=auto .vscode/
+more .gitignore
+more universe.sql
+clear
+ls --color=auto
+git init
+git remote
+git remote add gh https://github.com/Md-Talim/fcc-celestial-bodies-database.git
+git branch
+git push gh main
+git push gh main
+git status
+git add .
